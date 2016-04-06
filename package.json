@@ -1,0 +1,30 @@
+{
+  "name": "lesson-38-country-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "http-server": "^0.9.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbarnes722/lesson-38-CountryNews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbarnes722/lesson-38-CountryNews/issues"
+  },
+  "homepage": "https://github.com/rbarnes722/lesson-38-CountryNews#readme"
+}
